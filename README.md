@@ -85,4 +85,4 @@ public class Main {
 ```
 
 ## Output
-<img src="Output1.png"/>
+<img src="Output.png"/>
