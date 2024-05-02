@@ -1,7 +1,7 @@
 # Ujian Tengah Semester 
 <br>Mata Kuliah 	: Praktikum Pemrograman Berorientasi Objek
-<br> Nama		      : Refa Muhammad
-<br>NIM	    :	1227050113
+<br> Nama            : Refa Muhammad
+<br>NIM	            :	1227050113
 <br>Jurusan		    :[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
