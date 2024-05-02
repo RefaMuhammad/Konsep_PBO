@@ -86,3 +86,30 @@ public class Main {
 
 ## Output
 <img src="Output.png"/>
+
+## Penjelasan
+Program di atas merupakan contoh implementasi konsep OOP (Object-Oriented Programming) dalam Java menggunakan konsep-konsep seperti Interface, Abstract Class, Inheritance, dan Polymorphism. Berikut penjelasan singkatnya:
+
+1. Interface Shape:
+   - Merupakan sebuah kontrak yang menentukan bahwa kelas yang mengimplementasikan interface ini harus memiliki metode `calculateArea()` yang mengembalikan nilai bertipe `double`.
+
+2. Abstract Class Polygon:
+   - Merupakan kelas abstrak yang mengimplementasikan interface `Shape`.
+   - Memiliki atribut `sides` yang menunjukkan jumlah sisi.
+   - Memiliki constructor untuk menginisialisasi jumlah sisi.
+   - Memiliki metode `getSides()` untuk mengembalikan jumlah sisi.
+   - Memiliki metode abstrak `getType()` yang harus diimplementasikan oleh kelas turunannya.
+
+3. Kelas `Triangle` dan `Square
+   - Merupakan kelas konkret yang mewarisi dari kelas abstrak `Polygon`.
+   - `Triangle` memiliki atribut `base` dan `height` untuk menghitung luas segitiga.
+   - `Square` memiliki atribut `side` untuk menghitung luas persegi.
+   - Mengimplementasikan metode `calculateArea()` untuk menghitung luas sesuai dengan bentuknya masing-masing.
+   - Mengimplementasikan metode `getType()` untuk mengembalikan jenis bentuknya.
+
+4. Main Class
+   - Di dalam method `main`, kita membuat objek `triangle` dan `square` dengan tipe data `Polygon` tetapi menginisialisasinya dengan kelas turunannya `Triangle` dan `Square`.
+   - Hal ini menunjukkan konsep Polymorphism, di mana objek dapat berperilaku sesuai dengan tipe datanya (kelas induknya) meskipun diinisialisasi dengan kelas turunannya.
+
+5. Output
+   - Program mencetak jenis bentuk (Triangle/Square) beserta luasnya dengan memanggil metode `getType()` dan `calculateArea()` dari objek `triangle` dan `square`.
