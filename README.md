@@ -93,14 +93,14 @@ Program di atas merupakan contoh implementasi konsep OOP (Object-Oriented Progra
 1. Interface Shape:
    - Merupakan sebuah kontrak yang menentukan bahwa kelas yang mengimplementasikan interface ini harus memiliki metode `calculateArea()` yang mengembalikan nilai bertipe `double`.
 
-2. Abstract Class Polygon:
+2. Abstract Class `Polygon`:
    - Merupakan kelas abstrak yang mengimplementasikan interface `Shape`.
    - Memiliki atribut `sides` yang menunjukkan jumlah sisi.
    - Memiliki constructor untuk menginisialisasi jumlah sisi.
    - Memiliki metode `getSides()` untuk mengembalikan jumlah sisi.
    - Memiliki metode abstrak `getType()` yang harus diimplementasikan oleh kelas turunannya.
 
-3. Kelas `Triangle` dan `Square
+3. Kelas `Triangle` dan `Square`
    - Merupakan kelas konkret yang mewarisi dari kelas abstrak `Polygon`.
    - `Triangle` memiliki atribut `base` dan `height` untuk menghitung luas segitiga.
    - `Square` memiliki atribut `side` untuk menghitung luas persegi.
